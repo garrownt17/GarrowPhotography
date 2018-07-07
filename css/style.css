@@ -61,11 +61,18 @@ header	{				/*Goal: header invisible at top, fades in as you scroll down*/
 		flex-direction: column;
 }
 
-#nav-button	{
-	width: 10rem;
+div#navBox	{
 	background-color: blue;
 	display: flex;
 		flex-direction: column;
+}
+
+#navBox:hover	div{
+	display: none;
+}
+
+#navBox:hover ul{
+	display: flex;
 }
 
 nav	{
@@ -82,14 +89,7 @@ nav ul	{
 		justify-content: space-between;
 }
 
-#navBox:hover	ul{
-	display: flex;
-	background-color: green;
-}
 
-#navBox:hover #nav-button	{
-	display: none;
-}
 
 nav ul li	{
 	width: 18%;
