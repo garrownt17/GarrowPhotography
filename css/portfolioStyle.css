@@ -9,7 +9,6 @@ main	{
 }
 
 #gallery	{
-	height: 50rem;
 	display: flex;
 		justify-content: space-around;
 		flex-direction: row;
@@ -18,7 +17,12 @@ main	{
 
 .pic	{
 	width: 28%;
-	height: 15rem;
 	margin: 1.5rem;
 	border: navy solid 10px;
+	background-color: #000;
+}
+
+img	{
+	display: block;
+	width: 100%;
 }
