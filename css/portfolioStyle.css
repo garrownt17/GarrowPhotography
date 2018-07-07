@@ -13,11 +13,12 @@ main	{
 	display: flex;
 		justify-content: space-around;
 		flex-direction: row;
+		flex-wrap: wrap;
 }
 
 .pic	{
-	min-width: 25%;
-	height: 20rem;
-	margin: auto;
-	background-color: navy;
+	width: 28%;
+	height: 15rem;
+	margin: 1.5rem;
+	border: navy solid 10px;
 }

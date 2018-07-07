@@ -1,5 +1,10 @@
 /*style sheet for GarrowPhotography (index)*/
 
+#screen	{
+	position: absolute;
+	width: 100%;
+}
+
 /*Main Body*/
 main	{}
 
@@ -14,6 +19,4 @@ main	{}
 }
 
 #contact	{
-	height: 20rem;
-	background-color: pink;
 }
