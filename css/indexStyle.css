@@ -1,16 +1,12 @@
 /*style sheet for GarrowPhotography (index)*/
 
-#screen	{
-	position: absolute;
-	width: 100%;
-}
 
 /*Main Body*/
 main	{}
 
 #banner	{
-	height: 40rem;
-	background-color: pink;
+	height: 44rem;
+	background-color: navy;
 }
 
 #aboutMe	{
@@ -18,5 +14,3 @@ main	{}
 	background-color: red;
 }
 
-#contact	{
-}

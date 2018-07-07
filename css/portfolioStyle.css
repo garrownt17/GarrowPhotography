@@ -6,6 +6,7 @@
 /*Main*/
 main	{
 	width: 95%;
+	top: 10rem;
 }
 
 #gallery	{
@@ -13,16 +14,28 @@ main	{
 		justify-content: space-around;
 		flex-direction: row;
 		flex-wrap: wrap;
+		align-content: center;
 }
 
-.pic	{
+.port-pic	{
 	width: 28%;
 	margin: 1.5rem;
 	border: navy solid 10px;
 	background-color: #000;
+	opacity: .85;
+	transition: opacity 0.5s;
 }
 
-img	{
-	display: block;
-	width: 100%;
+.port-pic:hover	{
+	opacity: 1;
+}
+
+@media only screen and (max-width: 1375px)	{
+	.port-pic	{
+		width: 40%;
+	}
+}
+
+footer	{
+	top: 12rem;
 }
