@@ -1,0 +1,19 @@
+/*style sheet for GarrowPhotography (index)*/
+
+/*Main Body*/
+main	{}
+
+#banner	{
+	height: 40rem;
+	background-color: pink;
+}
+
+#aboutMe	{
+	height: 20rem;
+	background-color: red;
+}
+
+#contact	{
+	height: 20rem;
+	background-color: pink;
+}

@@ -1,0 +1,23 @@
+/*style sheet for GarrowPhotography (portfolio)*/
+
+/*Header*/
+
+
+/*Main*/
+main	{
+	width: 95%;
+}
+
+#gallery	{
+	height: 50rem;
+	display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+}
+
+.pic	{
+	min-width: 25%;
+	height: 20rem;
+	margin: auto;
+	background-color: navy;
+}
