@@ -1,0 +1,19 @@
+/*style sheet for GarrowPhotography (projects)*/
+
+/*Header*/
+header	{
+	height: 10rem;
+}
+
+nav ul {
+	height: 2rem;
+	margin: 0 auto;
+}
+/*Main*/
+#photo-genres	{
+	width: 100%;
+}
+
+#photo-genres ul li {
+	width: 25%;
+}
