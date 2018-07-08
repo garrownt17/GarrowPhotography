@@ -64,6 +64,14 @@ img	{
 	height: 2rem;
 }
 
+.border-lt	{
+	border-left: slategray solid 1px; 
+}
+
+.border-rt	{
+	border-right: slategray solid 1px;
+}
+
 /*Header*/
 header	{				/*Goal: header invisible at top, fades in as you scroll down*/
 	width: 100%;
